@@ -1,0 +1,154 @@
+/* TODO: design your profile with CSS */
+body {
+  background: rgba(36, 48, 61, 0.9);
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: rgb(36, 48, 61);
+  font-weight: bold;
+  font-size: 28px;
+  padding: 10px 0px;
+  margin: 0px 0px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0px 0px;
+  color: rgba(36, 48, 61, 0.9);
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: rgb(36, 48, 61);
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px 0px 20px 0px;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: rgba(36, 48, 61, 0.8);
+}
+
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 20px 10px 0px 10px;
+  margin: 0px;
+}
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar li {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 50px 0px 50px 0px;
+}
+
+
+.passion li {
+  display: inline-block;
+  list-style-type: none;
+  color: rgba(36, 48, 61, 0.95);
+  font-size: 16px;
+  margin: 0px 40px 20px 40px;
+}
+
+.passion li:hover {
+  color: rgba(36, 48, 61, 0.70);
+}
+
+
+td {
+  text-align: justify;
+  padding: 10px;
+}
+
+
+#sidebar a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(205, 205, 205);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(36, 48, 61);
+}
+
+img {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+
+}
+
+
+img:hover {
+  opacity: 0.8;
+}
+
+#sidebar {
+  position: fixed;
+  background: rgba(36, 48, 61, 1);
+  width: 240px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+#page-content {
+  margin-left: 240px;
+}
+
+#menu {
+  display: vertical;
+  list-style-type: none;
+  font-size: 14px;
+  margin: 0px;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+
+}
+
+.quote {
+  text-align: right;
+  font-size: 12px;
+}
+
+.card-white {
+  background: white;
+  padding: 10px 30px;
+  margin: 28px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid rgba(36, 48, 61, 0.9);
+  box-shadow: 1px 2px 5px rgb(225, 225, 225);
+  margin-top: 10px;
+}
+
+.fa {
+  font-size: 18px;
+}
